@@ -4,7 +4,11 @@ import { MissionProvider } from "../context/MissionContext";
 export default function Layout() {
   return (
     <MissionProvider>
-      <Stack />
+      <Stack
+        screenOptions={{
+          headerShown: false,
+        }}
+      />
     </MissionProvider>
   );
 }
