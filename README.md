@@ -200,6 +200,3 @@ https://github.com/gipraieiro/global-solution-cpad
 * Configurações persistentes
 * Análise preditiva simulada
 * Documentação concluída
-
-```
-```
