@@ -1,5 +1,7 @@
 # Space Predictive Analytics
 
+### Global Solution 2026.1 — Cross-Platform Application Development | FIAP
+
 ## Sobre o Projeto
 
 O projeto **Space Predictive Analytics** foi desenvolvido para a Global Solution da disciplina **Cross-Platform Application Development (CPAD)**.

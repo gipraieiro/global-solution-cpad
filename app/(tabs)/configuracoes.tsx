@@ -31,20 +31,44 @@ export default function Configuracoes() {
   }
 
   async function saveSettings() {
-    await AsyncStorage.setItem(
-      "settings",
-      JSON.stringify({
-        batteryLimit,
-        signalLimit,
-        radiationLimit,
-      })
-    );
-
+  if (
+    batteryLimit.trim() === "" ||
+    signalLimit.trim() === "" ||
+    radiationLimit.trim() === ""
+  ) {
     Alert.alert(
-      "Configurações salvas",
-      "Os limites foram atualizados com sucesso."
+      "Erro",
+      "Preencha todos os campos antes de salvar."
     );
+    return;
   }
+
+  if (
+    isNaN(Number(batteryLimit)) ||
+    isNaN(Number(signalLimit)) ||
+    isNaN(Number(radiationLimit))
+  ) {
+    Alert.alert(
+      "Erro",
+      "Os valores devem ser numéricos."
+    );
+    return;
+  }
+
+  await AsyncStorage.setItem(
+    "settings",
+    JSON.stringify({
+      batteryLimit,
+      signalLimit,
+      radiationLimit,
+    })
+  );
+
+  Alert.alert(
+    "Configurações salvas",
+    "Os limites foram atualizados com sucesso."
+  );
+}
 
   return (
     <ScrollView
