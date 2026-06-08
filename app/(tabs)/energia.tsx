@@ -6,6 +6,25 @@ import SensorCard from "../../components/SensorCard";
 export default function Energia() {
   const { missionData } = useContext(MissionContext);
 
+  const batteryStatus =
+    missionData.batteryLevel > 70
+      ? "Ótimo"
+      : missionData.batteryLevel > 40
+      ? "Moderado"
+      : "Crítico";
+
+  const solarStatus =
+    missionData.solarProduction > 60
+      ? "Nominal"
+      : missionData.solarProduction > 30
+      ? "Reduzida"
+      : "Baixa";
+
+  const consumptionStatus =
+    missionData.energyConsumption < 70
+      ? "Controlado"
+      : "Alto";
+
   return (
     <ScrollView
       style={{
@@ -26,7 +45,7 @@ export default function Energia() {
             marginTop: 20,
           }}
         >
-          Energy Management
+          Gestão de Energia
         </Text>
 
         <Text
@@ -37,30 +56,30 @@ export default function Energia() {
             marginBottom: 25,
           }}
         >
-          Real-time energy monitoring and prediction
+          Monitoramento e previsão de energia em tempo real
         </Text>
 
         <SensorCard
-          title="Battery Level"
+          title="Nível da Bateria"
           value={`${missionData.batteryLevel}%`}
-          status="Optimal"
-          prediction="Energy reserves support current mission operations."
+          status={batteryStatus}
+          prediction="Reservas de energia apoiam as operações atuais da missão."
           percentage={missionData.batteryLevel}
         />
 
         <SensorCard
-          title="Solar Production"
+          title="Produção Solar"
           value={`${missionData.solarProduction}%`}
-          status="Nominal"
-          prediction="Solar generation remains sufficient."
+          status={solarStatus}
+          prediction="A geração solar continua sendo suficiente."
           percentage={missionData.solarProduction}
         />
 
         <SensorCard
-          title="Energy Consumption"
+          title="Consumo de Energia"
           value={`${missionData.energyConsumption}%`}
-          status="Controlled"
-          prediction="Current consumption does not threaten reserves."
+          status={consumptionStatus}
+          prediction="O consumo atual não compromete as reservas energéticas."
           percentage={missionData.energyConsumption}
         />
       </View>
