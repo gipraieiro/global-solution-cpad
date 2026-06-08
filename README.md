@@ -1,6 +1,6 @@
-# 🚀 Space Predictive Analytics
+# Space Predictive Analytics
 
-## 📌 Sobre o Projeto
+##  Sobre o Projeto
 
 O projeto **Space Predictive Analytics** foi desenvolvido com o objetivo de simular um sistema de monitoramento e análise preditiva para missões espaciais.
 
@@ -10,7 +10,7 @@ O sistema foi desenvolvido utilizando **React Native com Expo Router**, permitin
 
 ---
 
-## 🎯 Objetivos
+##  Objetivos
 
 - Monitorar dados críticos de uma missão espacial.
 - Exibir informações em tempo real por meio de dashboards intuitivos.
@@ -20,7 +20,7 @@ O sistema foi desenvolvido utilizando **React Native com Expo Router**, permitin
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - React Native
 - Expo
@@ -32,46 +32,46 @@ O sistema foi desenvolvido utilizando **React Native com Expo Router**, permitin
 
 ---
 
-## 📊 Funcionalidades Implementadas
+##  Funcionalidades Implementadas
 
-### 🏠 Dashboard Principal
+###  Dashboard Principal
 - Visualização geral da missão.
 - Nível de energia.
 - Temperatura interna.
 - Comunicação.
 - Estabilidade orbital.
 
-### 📡 Monitoramento de Sensores
+###  Monitoramento de Sensores
 - Temperatura interna.
 - Temperatura externa.
 - Nível de radiação.
 - Status dos sensores.
 
-### ⚡ Gestão de Energia
+###  Gestão de Energia
 - Nível da bateria.
 - Produção solar.
 - Consumo de energia.
 - Indicadores de previsão operacional.
 
-### 📶 Sistemas de Comunicação
+###  Sistemas de Comunicação
 - Intensidade do sinal.
 - Latência.
 - Status da comunicação.
 
-### 🚨 Sistema de Alertas
+###  Sistema de Alertas
 - Monitoramento automático.
 - Alertas de bateria.
 - Alertas de sinal.
 - Alertas de radiação.
 - Alertas de estabilidade orbital.
 
-### ⚙️ Configurações
+### Configurações
 - Definição de limites para geração de alertas.
 - Persistência de dados utilizando AsyncStorage.
 
 ---
 
-## 📂 Estrutura do Projeto
+##  Estrutura do Projeto
 
 ```text
 app
@@ -94,7 +94,7 @@ context
 ```
 
 
-## 👨‍💻 Integrantes
+##  Integrantes
 
 |DUPLA|
 
@@ -103,14 +103,14 @@ context
 
 ---
 
-## 🎓 Disciplina
+##  Disciplina
 
 CROSS-PLATAFORM APPLICATION DEVELOPMENT
 
 
 ---
 
-## 📌 Status do Projeto
+##  Status do Projeto
 
 - ✅ Projeto desenvolvido
 - ✅ Interface funcional
