@@ -1,6 +1,6 @@
 # Space Predictive Analytics
 
-## 🚀 Sobre o Projeto
+## Sobre o Projeto
 
 O projeto **Space Predictive Analytics** foi desenvolvido para a Global Solution da disciplina **Cross-Platform Application Development (CPAD)**.
 
@@ -10,7 +10,7 @@ A solução auxilia na identificação de riscos, geração de alertas automáti
 
 ---
 
-## 🎯 Objetivos
+## Objetivos
 
 * Monitorar dados críticos de uma missão espacial.
 * Exibir informações em tempo real por meio de dashboards intuitivos.
@@ -21,7 +21,7 @@ A solução auxilia na identificação de riscos, geração de alertas automáti
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 * React Native
 * Expo
@@ -33,7 +33,7 @@ A solução auxilia na identificação de riscos, geração de alertas automáti
 
 ---
 
-## 📱 Funcionalidades Implementadas
+## Funcionalidades Implementadas
 
 ### Dashboard Principal
 
@@ -82,7 +82,7 @@ A solução auxilia na identificação de riscos, geração de alertas automáti
 
 ---
 
-## 🎥 Vídeo Demonstrativo
+## Vídeo Demonstrativo
 
 Vídeo de apresentação do projeto:
 
@@ -90,7 +90,7 @@ https://youtube.com/shorts/8lCEsnv5H8A?feature=share
 
 ---
 
-## 📸 Telas do Sistema
+## Telas do Sistema
 
 ### Dashboard Principal
 
@@ -118,7 +118,7 @@ https://youtube.com/shorts/8lCEsnv5H8A?feature=share
 
 ---
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```text
 app
@@ -145,7 +145,7 @@ types
 
 ---
 
-## ▶️ Como Executar o Projeto
+## ▶Como Executar o Projeto
 
 ### Clonar o repositório
 
@@ -167,7 +167,7 @@ npx expo start
 
 ---
 
-## 👥 Integrantes
+## Integrantes
 
 | Nome                                 | RM     |
 | ------------------------------------ | ------ |
@@ -176,19 +176,19 @@ npx expo start
 
 ---
 
-## 📚 Disciplina
+## Disciplina
 
 **Cross-Platform Application Development (CPAD)**
 
 ---
 
-## 🔗 Repositório
+## Repositório
 
 https://github.com/gipraieiro/global-solution-cpad
 
 ---
 
-## ✅ Status do Projeto
+## Status do Projeto
 
 * Projeto desenvolvido
 * Interface funcional
