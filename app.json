@@ -2,6 +2,7 @@
   "expo": {
     "name": "space-predictive-analytics",
     "slug": "space-predictive-analytics",
+    "scheme": "spacepredictive",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

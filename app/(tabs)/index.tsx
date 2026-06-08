@@ -38,7 +38,7 @@ export default function Home() {
             marginBottom: 30,
           }}
         >
-          Mission Control Dashboard
+          Painel de Controle da Missão
         </Text>
 
         <View
@@ -50,22 +50,22 @@ export default function Home() {
           }}
         >
           <InfoCard
-            title="Energy"
+            title="Energia"
             value={`${missionData.batteryLevel}%`}
           />
 
           <InfoCard
-            title="Temperature"
+            title="Temperatura"
             value={`${missionData.internalTemperature}°C`}
           />
 
           <InfoCard
-            title="Communication"
+            title="Comunicação"
             value={`${missionData.signalStrength}%`}
           />
 
           <InfoCard
-            title="Orbital Stability"
+            title="Estabilidade Orbital"
             value={`${missionData.orbitalStability}%`}
           />
         </View>

@@ -47,8 +47,17 @@ export default function Configuracoes() {
   }
 
   return (
-    <ScrollView style={{ flex: 1, backgroundColor: "#0F172A" }}>
-      <View style={{ padding: 20 }}>
+    <ScrollView
+      style={{
+        flex: 1,
+        backgroundColor: "#0F172A",
+      }}
+    >
+      <View
+        style={{
+          padding: 20,
+        }}
+      >
         <Text
           style={{
             color: "#FFFFFF",
@@ -63,19 +72,26 @@ export default function Configuracoes() {
         <Text
           style={{
             color: "#38BDF8",
+            fontSize: 16,
+            marginTop: 4,
             marginBottom: 25,
           }}
         >
-          Configurar limiares de alerta
+          Defina os limites para geração automática de alertas
         </Text>
 
-        <Text style={{ color: "#FFFFFF" }}>
+        <Text
+          style={{
+            color: "#FFFFFF",
+          }}
+        >
           Limite de Bateria (%)
         </Text>
 
         <TextInput
           value={batteryLimit}
           onChangeText={setBatteryLimit}
+          keyboardType="numeric"
           style={{
             backgroundColor: "#1E293B",
             color: "#FFFFFF",
@@ -86,13 +102,18 @@ export default function Configuracoes() {
           }}
         />
 
-        <Text style={{ color: "#FFFFFF" }}>
-          Limite de Sinalização (%)
+        <Text
+          style={{
+            color: "#FFFFFF",
+          }}
+        >
+          Limite de Sinal (%)
         </Text>
 
         <TextInput
           value={signalLimit}
           onChangeText={setSignalLimit}
+          keyboardType="numeric"
           style={{
             backgroundColor: "#1E293B",
             color: "#FFFFFF",
@@ -103,13 +124,18 @@ export default function Configuracoes() {
           }}
         />
 
-        <Text style={{ color: "#FFFFFF" }}>
+        <Text
+          style={{
+            color: "#FFFFFF",
+          }}
+        >
           Limite de Radiação (mSv)
         </Text>
 
         <TextInput
           value={radiationLimit}
           onChangeText={setRadiationLimit}
+          keyboardType="numeric"
           style={{
             backgroundColor: "#1E293B",
             color: "#FFFFFF",
@@ -134,7 +160,7 @@ export default function Configuracoes() {
               fontWeight: "bold",
             }}
           >
-            Configurações de Salvar
+            Salvar Configurações
           </Text>
         </TouchableOpacity>
       </View>

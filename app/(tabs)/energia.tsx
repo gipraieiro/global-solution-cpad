@@ -63,7 +63,7 @@ export default function Energia() {
           title="Nível da Bateria"
           value={`${missionData.batteryLevel}%`}
           status={batteryStatus}
-          prediction="Reservas de energia apoiam as operações atuais da missão."
+          prediction="A autonomia energética permanece adequada para o ciclo atual da missão."
           percentage={missionData.batteryLevel}
         />
 
@@ -71,7 +71,7 @@ export default function Energia() {
           title="Produção Solar"
           value={`${missionData.solarProduction}%`}
           status={solarStatus}
-          prediction="A geração solar continua sendo suficiente."
+          prediction="A geração solar deve permanecer estável nas próximas operações."
           percentage={missionData.solarProduction}
         />
 
@@ -79,7 +79,7 @@ export default function Energia() {
           title="Consumo de Energia"
           value={`${missionData.energyConsumption}%`}
           status={consumptionStatus}
-          prediction="O consumo atual não compromete as reservas energéticas."
+          prediction="O padrão de consumo atual não indica riscos energéticos imediatos."
           percentage={missionData.energyConsumption}
         />
       </View>

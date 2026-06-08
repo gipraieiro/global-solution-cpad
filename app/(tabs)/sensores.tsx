@@ -26,7 +26,7 @@ export default function Sensores() {
             marginTop: 20,
           }}
         >
-          Sensors Monitoring
+          Monitoramento de Sensores
         </Text>
 
         <Text
@@ -37,30 +37,30 @@ export default function Sensores() {
             marginBottom: 25,
           }}
         >
-          Real-time sensor diagnostics
+          Diagnóstico em tempo real dos sensores
         </Text>
 
         <SensorCard
-          title="Internal Temperature"
+          title="Temperatura Interna"
           value={`${missionData.internalTemperature}°C`}
           status="Normal"
-          prediction="Thermal conditions remain stable."
+          prediction="As condições térmicas permanecem estáveis."
           percentage={75}
         />
 
         <SensorCard
-          title="External Temperature"
+          title="Temperatura Externa"
           value={`${missionData.externalTemperature}°C`}
-          status="Stable"
-          prediction="No external thermal anomaly detected."
+          status="Estável"
+          prediction="Nenhuma anomalia térmica externa foi detectada."
           percentage={55}
         />
 
         <SensorCard
-          title="Radiation"
+          title="Radiação"
           value={`${missionData.radiation} mSv`}
-          status="Safe"
-          prediction="Radiation levels remain within safe limits."
+          status="Seguro"
+          prediction="Os níveis de radiação permanecem dentro dos limites seguros."
           percentage={35}
         />
       </View>

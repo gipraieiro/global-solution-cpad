@@ -37,14 +37,14 @@ export default function Comunicacao() {
             marginBottom: 25,
           }}
         >
-          Monitoramento de comunicação em tempo real
+          Monitoramento e previsão de desempenho da comunicação
         </Text>
 
         <SensorCard
           title="Intensidade do Sinal"
           value={`${missionData.signalStrength}%`}
           status="Estável"
-          prediction="A comunicação continua operacional."
+          prediction="A comunicação deverá permanecer operacional nas próximas transmissões."
           percentage={missionData.signalStrength}
         />
 
@@ -52,7 +52,7 @@ export default function Comunicacao() {
           title="Latência"
           value={`${missionData.latency} ms`}
           status="Nominal"
-          prediction="O atraso na transmissão permanece aceitável."
+          prediction="O tempo de resposta permanece dentro dos parâmetros aceitáveis."
           percentage={80}
         />
       </View>
