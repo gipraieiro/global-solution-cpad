@@ -73,22 +73,22 @@ O sistema foi desenvolvido utilizando **React Native com Expo Router**, permitin
 ## 📸 Telas do Sistema
 
 ### Dashboard Principal
-![Home](<img width="1365" height="729" alt="WhatsApp Image 2026-06-07 at 22 05 47" src="https://github.com/user-attachments/assets/1b2cf01e-b665-4416-b625-79aa3dbd2b50" />)
+(<img width="1365" height="729" alt="WhatsApp Image 2026-06-07 at 22 05 47" src="https://github.com/user-attachments/assets/1b2cf01e-b665-4416-b625-79aa3dbd2b50" />)
 
 ### Monitoramento de Sensores
-![Sensores](<img width="1365" height="733" alt="WhatsApp Image 2026-06-07 at 22 05 47 (1)" src="https://github.com/user-attachments/assets/db7f83bf-6371-46e9-bd30-58aadcc228b0" />)
+(<img width="1365" height="733" alt="WhatsApp Image 2026-06-07 at 22 05 47 (1)" src="https://github.com/user-attachments/assets/db7f83bf-6371-46e9-bd30-58aadcc228b0" />)
 
 ### Gestão de Energia
-![Energia](<img width="1365" height="729" alt="WhatsApp Image 2026-06-07 at 22 05 47 (2)" src="https://github.com/user-attachments/assets/16942ea3-ef10-4911-a261-f08e02557986" />)
+(<img width="1365" height="729" alt="WhatsApp Image 2026-06-07 at 22 05 47 (2)" src="https://github.com/user-attachments/assets/16942ea3-ef10-4911-a261-f08e02557986" />)
 
 ### Sistemas de Comunicação
-![Comunicação](<img width="1365" height="729" alt="WhatsApp Image 2026-06-07 at 22 05 47 (3)" src="https://github.com/user-attachments/assets/83c016fa-bb57-4f8a-93de-dff2c0b86975" />)
+(<img width="1365" height="729" alt="WhatsApp Image 2026-06-07 at 22 05 47 (3)" src="https://github.com/user-attachments/assets/83c016fa-bb57-4f8a-93de-dff2c0b86975" />)
 
 ### Sistema de Alertas
-![Alertas](<img width="1365" height="733" alt="WhatsApp Image 2026-06-07 at 22 05 47 (4)" src="https://github.com/user-attachments/assets/68fc8a81-0aae-46c0-87fa-3800fe00c328" />)
+(<img width="1365" height="733" alt="WhatsApp Image 2026-06-07 at 22 05 47 (4)" src="https://github.com/user-attachments/assets/68fc8a81-0aae-46c0-87fa-3800fe00c328" />)
 
 ### Configurações
-![Configurações](<img width="1365" height="729" alt="WhatsApp Image 2026-06-07 at 22 05 47 (5)" src="https://github.com/user-attachments/assets/582e8b3a-acb9-4aaf-af69-70422e7f2d8d" />)
+(<img width="1365" height="729" alt="WhatsApp Image 2026-06-07 at 22 05 47 (5)" src="https://github.com/user-attachments/assets/582e8b3a-acb9-4aaf-af69-70422e7f2d8d" />)
 
 ##  Estrutura do Projeto
 
