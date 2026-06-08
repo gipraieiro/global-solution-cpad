@@ -1,96 +1,124 @@
 # Space Predictive Analytics
 
-##  Sobre o Projeto
+## 🚀 Sobre o Projeto
 
-O projeto **Space Predictive Analytics** foi desenvolvido com o objetivo de simular um sistema de monitoramento e análise preditiva para missões espaciais.
+O projeto **Space Predictive Analytics** foi desenvolvido para a Global Solution da disciplina **Cross-Platform Application Development (CPAD)**.
 
-A aplicação permite acompanhar em tempo real indicadores importantes da missão, como energia, sensores, comunicação e estabilidade orbital, auxiliando na identificação de possíveis riscos e na tomada de decisões preventivas.
+A aplicação simula uma plataforma inteligente de monitoramento e análise preditiva para missões espaciais, permitindo acompanhar indicadores operacionais em tempo real relacionados à energia, sensores, comunicação e estabilidade orbital.
 
-O sistema foi desenvolvido utilizando **React Native com Expo Router**, permitindo sua execução tanto em dispositivos móveis quanto na web.
-
----
-
-##  Objetivos
-
-- Monitorar dados críticos de uma missão espacial.
-- Exibir informações em tempo real por meio de dashboards intuitivos.
-- Identificar situações de risco através de alertas automáticos.
-- Permitir a configuração de limites para monitoramento.
-- Simular conceitos de análise preditiva aplicados ao contexto espacial.
+A solução auxilia na identificação de riscos, geração de alertas automáticos e apoio à tomada de decisão em ambientes críticos, simulando conceitos utilizados em operações aeroespaciais modernas.
 
 ---
 
-##  Tecnologias Utilizadas
+## 🎯 Objetivos
 
-- React Native
-- Expo
-- Expo Router
-- TypeScript
-- Context API
-- AsyncStorage
-- React Native Web
+* Monitorar dados críticos de uma missão espacial.
+* Exibir informações em tempo real por meio de dashboards intuitivos.
+* Gerar alertas automáticos para situações críticas.
+* Permitir a configuração personalizada de limites operacionais.
+* Simular conceitos de análise preditiva aplicados ao contexto espacial.
+* Demonstrar persistência de dados utilizando armazenamento local.
 
 ---
 
-##  Funcionalidades Implementadas
+## 🛠️ Tecnologias Utilizadas
 
-###  Dashboard Principal
-- Visualização geral da missão.
-- Nível de energia.
-- Temperatura interna.
-- Comunicação.
-- Estabilidade orbital.
+* React Native
+* Expo
+* Expo Router
+* TypeScript
+* Context API
+* AsyncStorage
+* React Native Web
 
-###  Monitoramento de Sensores
-- Temperatura interna.
-- Temperatura externa.
-- Nível de radiação.
-- Status dos sensores.
+---
 
-###  Gestão de Energia
-- Nível da bateria.
-- Produção solar.
-- Consumo de energia.
-- Indicadores de previsão operacional.
+## 📱 Funcionalidades Implementadas
 
-###  Sistemas de Comunicação
-- Intensidade do sinal.
-- Latência.
-- Status da comunicação.
+### Dashboard Principal
 
-###  Sistema de Alertas
-- Monitoramento automático.
-- Alertas de bateria.
-- Alertas de sinal.
-- Alertas de radiação.
-- Alertas de estabilidade orbital.
+* Visualização geral da missão.
+* Indicadores de energia.
+* Temperatura interna.
+* Comunicação.
+* Estabilidade orbital.
+
+### Monitoramento de Sensores
+
+* Temperatura interna.
+* Temperatura externa.
+* Nível de radiação.
+* Status operacional dos sensores.
+* Análise preditiva dos dados monitorados.
+
+### Gestão de Energia
+
+* Nível da bateria.
+* Produção solar.
+* Consumo de energia.
+* Indicadores preditivos de desempenho energético.
+
+### Sistemas de Comunicação
+
+* Intensidade do sinal.
+* Latência.
+* Status da comunicação.
+* Previsão de desempenho da transmissão.
+
+### Sistema de Alertas
+
+* Monitoramento automático dos indicadores.
+* Alertas de bateria.
+* Alertas de sinal.
+* Alertas de radiação.
+* Alertas de estabilidade orbital.
+* Recomendações para tomada de decisão.
 
 ### Configurações
-- Definição de limites para geração de alertas.
-- Persistência de dados utilizando AsyncStorage.
+
+* Definição de limites personalizados.
+* Persistência de dados utilizando AsyncStorage.
+* Recuperação automática das configurações salvas.
 
 ---
+
+## 🎥 Vídeo Demonstrativo
+
+Vídeo de apresentação do projeto:
+
+https://youtube.com/shorts/8lCEsnv5H8A?feature=share
+
+---
+
 ## 📸 Telas do Sistema
 
 ### Dashboard Principal
-<img width="1365" height="729" alt="WhatsApp Image 2026-06-07 at 22 05 47" src="https://github.com/user-attachments/assets/1b2cf01e-b665-4416-b625-79aa3dbd2b50" />
+
+![Dashboard Principal](images/home.png)
 
 ### Monitoramento de Sensores
-<img width="1365" height="733" alt="WhatsApp Image 2026-06-07 at 22 05 47 (1)" src="https://github.com/user-attachments/assets/db7f83bf-6371-46e9-bd30-58aadcc228b0" />
+
+![Monitoramento de Sensores](images/sensores.png)
 
 ### Gestão de Energia
-<img width="1365" height="729" alt="WhatsApp Image 2026-06-07 at 22 05 47 (2)" src="https://github.com/user-attachments/assets/16942ea3-ef10-4911-a261-f08e02557986" />
+
+![Gestão de Energia](images/energia.png)
 
 ### Sistemas de Comunicação
-<img width="1365" height="729" alt="WhatsApp Image 2026-06-07 at 22 05 47 (3)" src="https://github.com/user-attachments/assets/83c016fa-bb57-4f8a-93de-dff2c0b86975" />
+
+![Sistemas de Comunicação](images/comunicacao.png)
 
 ### Sistema de Alertas
-<img width="1365" height="733" alt="WhatsApp Image 2026-06-07 at 22 05 47 (4)" src="https://github.com/user-attachments/assets/68fc8a81-0aae-46c0-87fa-3800fe00c328" />
+
+![Sistema de Alertas](images/alertas.png)
 
 ### Configurações
-<img width="1365" height="729" alt="WhatsApp Image 2026-06-07 at 22 05 47 (5)" src="https://github.com/user-attachments/assets/582e8b3a-acb9-4aaf-af69-70422e7f2d8d" />
 
-##  Estrutura do Projeto
+![Configurações](images/configuracoes.png)
+
+---
+
+## 📂 Estrutura do Projeto
 
 ```text
 app
@@ -110,35 +138,68 @@ components
 │
 context
 └── MissionContext.tsx
+│
+types
+└── mission.ts
 ```
 
+---
 
-##  Integrantes
+## ▶️ Como Executar o Projeto
 
-|DUPLA|
+### Clonar o repositório
 
-| Maria Eduarda de Oliveira Silva Luiz |565386 |
-| Giovanna Praieiro Pavani | 565681 |
+```bash
+git clone https://github.com/gipraieiro/global-solution-cpad.git
+```
+
+### Instalar as dependências
+
+```bash
+npm install
+```
+
+### Executar o projeto
+
+```bash
+npx expo start
+```
 
 ---
 
-##  Disciplina
+## 👥 Integrantes
 
-CROSS-PLATAFORM APPLICATION DEVELOPMENT
-
+| Nome                                 | RM     |
+| ------------------------------------ | ------ |
+| Maria Eduarda de Oliveira Silva Luiz | 565386 |
+| Giovanna Praieiro Pavani             | 565681 |
 
 ---
 
-##  Status do Projeto
+## 📚 Disciplina
 
-- ✅ Projeto desenvolvido
-- ✅ Interface funcional
-- ✅ Navegação entre telas
-- ✅ Monitoramento de sensores
-- ✅ Gestão de energia
-- ✅ Sistema de comunicação
-- ✅ Sistema de alertas
-- ✅ Configurações persistentes
+**Cross-Platform Application Development (CPAD)**
+
+---
+
 ## 🔗 Repositório
 
 https://github.com/gipraieiro/global-solution-cpad
+
+---
+
+## ✅ Status do Projeto
+
+* Projeto desenvolvido
+* Interface funcional
+* Navegação entre telas
+* Monitoramento de sensores
+* Gestão de energia
+* Sistema de comunicação
+* Sistema de alertas
+* Configurações persistentes
+* Análise preditiva simulada
+* Documentação concluída
+
+```
+```
